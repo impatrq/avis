@@ -1,0 +1,23 @@
+C.c Noviembre 
+1/11/24 
+  Santiago Rubio, Agustin Brizuela, Jofiel Godoy y Lucas Meabrio probaron el codigo de la llave selectora en el mobiflight para el magneto/iman de la aeronave. 
+5/11/24
+  Jofiel Godoy, Santiago Rubio, Agustin Brizuela y Lucas Meabrio testearon dos arduinos a la vez en el mobiflight para comprobar la compatibilidad de las mismas simultaneamente con el
+  programa.
+  Santiago Rubio agrego los codigos necesarios para las comunicaciones entre el MPU y el MFS para el movimiento de la cabina y que funcione correctamente. 
+  Lautaro Esteban, Santiago Leiva y Leandro Flores realizaron un escaneo general de direccion de registros desde modscan y tambien realizaron otro escaneo de registros de envio.
+    desde 40.000 hasta 50.000. Investigaron un nuuevo metodo de funcionamiento con un potenciometro digital. Se planeo e investigo las librerias y elementos necesarios para el codigo
+    con el nuevo metodo de comunicacion.
+  Agustin Brizuela realizo la impresion 3d de dos carcasas para las arduinos uno.
+6/11/24
+  Jofiel Godoy y Agustin Brizuela continuaron con el modelado 3d del panel de control. Soldaron 8 pines del potenciometro digital y la llave selectora para su correcto funcionmiento.
+  Santiago Rubio continuo con el codigo para la comparacion mencionado en el dia 5/11. Tambien probo la llave selectora junto a Lucas Meabrio.
+  Lucas Meabrio inicio la carpeta de campo de novimebre.
+  Emiliano Romo Cordoba continuo con las reformas para la cabina del simulador, tomando las medidas para poner un soporte para el yoke, 
+  Lautaro Esteban, Santiago Leiva y Leandro Flores Compraron los potenciometros digitales para poder trabajar con la comunicacion de los variadores, realizaron pruebas basicas con un potenciometro analogico para identificar la respuesta con el variador y verificar que las conexiones esten bien establecidas, luego realizaron las pruebas implementando el potenciometro digital y realizaron el codigo para ajustar el porcentaje de la resistencia del potenciometro digital a un rango de posicion de 0 a 100%. Y empezaron a implementar a las conexiones y al codigo el ESP32.
+7/11/24
+Jofiel Godoy continuó con el modelado 3D en TinkerCad para luego imprimirlo en una hoja A4 para así corroborar que las medidas reales son correctas. Esto lo hizo para que a la hora de imprimir el panel en 3D no hayan errores
+Agustin Brizuela ubico el yoke pedestal en el simulador, modifico el pedestal para que sea mas compatible con el simulador, saco medidas del simulador para que se pueda modificar la estructura.
+Santiago Rubio y Lucas Meabrio soldaron la llave selectora, midieron el yoke, investigaron las variables para el panel de control e hicieron la programación de los movimientos del avión donde lograron transformar los datos en grados.
+Lautaro Esteban, Santiago Leiva, Leandro Flores agregaron las conexiones al MPU6050 y lo implementaron en el codigo, y debido a la sensibilidad inestable del potenciometro digital agregaron una libreria simple kanban system
+Emiliano Romocordoba Midio la base de la estructura, reforzo la soldadura del panel, coloco la base del monitor, agujereo la Base, Construyo Estructuras para sostener el yoke.
