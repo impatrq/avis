@@ -21,3 +21,50 @@ Agustin Brizuela ubico el yoke pedestal en el simulador, modifico el pedestal pa
 Santiago Rubio y Lucas Meabrio soldaron la llave selectora, midieron el yoke, investigaron las variables para el panel de control e hicieron la programación de los movimientos del avión donde lograron transformar los datos en grados.
 Lautaro Esteban, Santiago Leiva, Leandro Flores agregaron las conexiones al MPU6050 y lo implementaron en el codigo, y debido a la sensibilidad inestable del potenciometro digital agregaron una libreria simple kanban system
 Emiliano Romocordoba Midio la base de la estructura, reforzo la soldadura del panel, coloco la base del monitor, agujereo la Base, Construyo Estructuras para sostener el yoke.
+
+8/11/24
+Jofiel Godoy y Agustín Brizuela luego de imprimir las medidas de modelo 3D en una hoja A4, compararon que las medidas estuvieran cercanas a lo real, así determinando hacer pruebas comparando el tamaño haciedo una impresión 3D de una pieza pequeña con los agujeros en donde va cada switch o pulsador. Para eos Jofiel Godoy creó un modelado 3D chico del que luego Agustín Brizuela pediría a un conocido suyo que le imprimiera para luego probarlo.
+
+9/!1/24
+Agustín Brizuela y Jofiel Godoy probaron las medidas reales en el mini modelado 3D, pudiendo determinar que todas las medidas encajaban excepto la de los pulsadores.
+También junto a Lucas Meabrio y Santiago Rubio testeamos el funcionamiento de todo el circuito del Panel de Control conectado a la ArduinoUNO y el MobiFlight y FS2020. Pudimos observar que andaban todas debidamente excepto un acción del Magneto, el "START" el cuál al mover la perilla de la llave selectora rotativa nunca se movía en el FS2020. Para solucionar este error Santiago Rubio se comprometió a investigar para que al girar el Magneto en "START" se ponga simultáneamente en el juego. 
+
+10/11/24 
+Santiago Rubio investigó y testeó dos métodos para que funcione el "START" del magneto. Para esto usó un método con events Ids en mobiflight en vez de los códigos offset. Y otro método en donde ubiquemos el "start" como un pulsador aparte. En este último Santiago Rubio creó un código para que este botón hiciera que detecte la acción del pulsador hacia el FS2020.
+
+11/11/24
+Jofiel Godoy corrigió las medidas reales en Tinkercad para realizar la impresión 3D para mañana.
+
+12/11/24
+Emiliano Romo Cordoba, Leandro Flores, Jofiel Godoy, Agustín Brizuela y Lautaro Esteban realizaron una limpieza general de los interiores y exteriores de la estructura del simulador.
+Agustín Brizuela realizó la impresión del Panel de Control, y junto a Jofiel Godoy probaron a colocar todos los componentes pero se encontraron con la dificultad de que las 7 switches de navegación no entraban en los agujeros, de forma que para que puedan entrar bien Jofiel se propuso a arreglar las medidas de esas switches e el modelado de TinkerCad.
+
+13/11/24 
+Jofiel Godoy renovó el diseño del panel con medidas lo que creía más cercano a real, agregando varios detalles estéticos como las líneas separadoras de cada switch de navegación, y no menos importante, el logo de nuestro proyecto en el medio del panel. También agregó 4 agujeros para que vaya colocado detrás del panel la Arduino con su carcasa para que se conecten los cables de cada componente. 
+
+14/11/24
+Agustín Brizuela se contactó con un trabajador de nuestro sponsor del proyecto "Ferretería la 50", se nos ofreció a hacer de vuelta la impresión mejorada, ya con las letras en blanco y el logo de SkylF.
+
+15/11/24
+Jofiel Godoy y Agustín Brizuela probaron  el nuevo panel de control con todos los componentes. Entraron todos excepto las 7 switches las cuales no hacían un movimiento adecuado entre ON y OFF, sino que se trababan. Por eso nos propusimos de limar para agrandar el agujero para que así entren.
+
+16/11/24
+Agustin Brizuela soldó cables a los pines de los componentes
+Jofiel Godoy siguió usando la lima para entren todas las switches. 
+
+18/11/24
+Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto
+
+19/11/24
+Jofiel Godoy ajustó las 7 switches que no entraban para que ahora entren y no traben al moverse entre ON y OFF. 
+Santiago Rubio, Lucas Meabrio y Agustín Brizuela testearon que en el FS2020 las soldaduras de las conexiones hechas al panel anduvieran, así el resultado siendo positivo
+
+20/11/24
+Jofiel Godoy realizó las últimas soldaduras de los cables a los pines de los componentes, para que así se queden lo más fijo posible. Por eso, con una pistola de silicona pegó la base de los pines a los conectores de la ArduinoUNO para que así al colocar el Panel de Control en la estructura del simulador, estos cables no se muevan ni se salgan. También compró tornillos para ajustar la carcasa que contiene al Arduino al Panel de Control y quede fijo a este. 
+
+
+
+
+
+
+
