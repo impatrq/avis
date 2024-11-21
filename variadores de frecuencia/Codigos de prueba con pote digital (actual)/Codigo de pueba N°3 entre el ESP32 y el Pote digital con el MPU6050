@@ -1,0 +1,91 @@
+#include <Wire.h>
+#include <MPU6050.h>
+
+MPU6050 mpu;
+
+// Pines de conexión para el AR-X9C103S
+const int CS_PIN = 15;         // Chip Select
+const int INC_PIN = 14;        // Incremento
+const int UP_DOWN_PIN = 13;    // Dirección (incremento o decremento)
+
+// Rango de ángulo para mapear a la resistencia del potenciómetro
+const int ANGLE_MIN = -90;
+const int ANGLE_MAX = 90;
+
+// Variables para el control de resistencia
+int lastSteps = -1;  // Valor previo de pasos del potenciómetro
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Iniciando el MPU6050 y el potenciómetro digital.");
+
+  // Configuración de los pines de control
+  pinMode(CS_PIN, OUTPUT);
+  pinMode(INC_PIN, OUTPUT);
+  pinMode(UP_DOWN_PIN, OUTPUT);
+
+  // Inicializar los pines en estado alto
+  digitalWrite(CS_PIN, HIGH);
+  digitalWrite(INC_PIN, HIGH);
+  digitalWrite(UP_DOWN_PIN, HIGH);
+
+  // Inicializar la comunicación I2C con el MPU6050
+  Wire.begin();
+  mpu.initialize();
+
+  // Comprobar conexión con el MPU6050
+  if (mpu.testConnection()) {
+    Serial.println("MPU6050 conectado correctamente.");
+  } else {
+    Serial.println("Error al conectar el MPU6050. Verifica las conexiones.");
+  }
+}
+
+void loop() {
+  int16_t ax, ay, az;
+  mpu.getAcceleration(&ax, &ay, &az);
+
+  // Calcular el ángulo aproximado en el eje X
+  float angleX = atan2(ay, az) * 180 / PI;
+
+  // Mapear el ángulo al rango de pasos del potenciómetro (0 a 99)
+  int steps = map(angleX, ANGLE_MIN, ANGLE_MAX, 0, 99);
+
+  // Solo ajustar si el valor de pasos ha cambiado
+  if (steps != lastSteps) {
+    Serial.print("Ángulo X: ");
+    Serial.print(angleX);
+    Serial.print(" | Ajustando a pasos del potenciómetro: ");
+    Serial.println(steps);
+
+    adjustResistanceSmoothly(steps);
+    lastSteps = steps;
+  }
+
+  // Reducir el retraso para actualizaciones más continuas
+  delay(10);
+}
+
+void adjustResistanceSmoothly(int targetSteps) {
+  // Determina la dirección según el cambio necesario
+  bool increment = targetSteps > lastSteps;
+  digitalWrite(UP_DOWN_PIN, increment ? HIGH : LOW);
+  digitalWrite(CS_PIN, LOW); // Activar el potenciómetro
+
+  // Cambia un paso a la vez para hacer el ajuste suave
+  int stepDifference = abs(targetSteps - lastSteps);
+  for (int i = 0; i < stepDifference; i++) {
+    pulseIncrement();
+    delay(5); // Pausa corta para cada pulso, ajustable para mayor fluidez
+  }
+
+  digitalWrite(CS_PIN, HIGH); // Desactivar el potenciómetro
+  Serial.println("Resistencia ajustada suavemente.");
+}
+
+void pulseIncrement() {
+  digitalWrite(INC_PIN, LOW);
+  delayMicroseconds(1); // Pulso corto para cambiar el valor
+  digitalWrite(INC_PIN, HIGH);
+  delayMicroseconds(1);
+}
