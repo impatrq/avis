@@ -1,0 +1,56 @@
+// Pines de conexión para el AR-X9C103S
+const int CS_PIN = 15;         // Chip Select
+const int INC_PIN = 14;        // Incremento
+const int UP_DOWN_PIN = 13;    // Dirección (incremento o decremento)
+
+void setup() {
+  // Configuración de los pines de control
+  pinMode(CS_PIN, OUTPUT);
+  pinMode(INC_PIN, OUTPUT);
+  pinMode(UP_DOWN_PIN, OUTPUT);
+
+  // Inicializar los pines en estado alto
+  digitalWrite(CS_PIN, HIGH);
+  digitalWrite(INC_PIN, HIGH);
+  digitalWrite(UP_DOWN_PIN, HIGH);
+
+  Serial.begin(115200);
+  Serial.println("Iniciando prueba básica del potenciómetro digital.");
+}
+
+void loop() {
+  // Incrementar la resistencia del potenciómetro al máximo
+  Serial.println("Incrementando resistencia...");
+  digitalWrite(UP_DOWN_PIN, HIGH);  // Configurar para incrementar
+  digitalWrite(CS_PIN, LOW);        // Activar el potenciómetro
+
+  for (int i = 0; i < 100; i++) {   // 100 pasos para el rango completo
+    pulseIncrement();
+    delay(50);  // Pausa entre pasos para observar el cambio
+  }
+
+  digitalWrite(CS_PIN, HIGH);       // Desactivar el potenciómetro
+
+  delay(1000); // Esperar 1 segundo antes de cambiar la dirección
+
+  // Decrementar la resistencia del potenciómetro al mínimo
+  Serial.println("Decrementando resistencia...");
+  digitalWrite(UP_DOWN_PIN, LOW);   // Configurar para decrementar
+  digitalWrite(CS_PIN, LOW);        // Activar el potenciómetro
+
+  for (int i = 0; i < 100; i++) {
+    pulseIncrement();
+    delay(50);  // Pausa entre pasos para observar el cambio
+  }
+
+  digitalWrite(CS_PIN, HIGH);       // Desactivar el potenciómetro
+
+  delay(1000); // Esperar antes de repetir el ciclo
+}
+
+void pulseIncrement() {
+  digitalWrite(INC_PIN, LOW);
+  delayMicroseconds(1); // Pulso corto para cambiar el valor
+  digitalWrite(INC_PIN, HIGH);
+  delayMicroseconds(1);
+}
