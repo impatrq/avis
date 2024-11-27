@@ -9,40 +9,57 @@ Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llam
 
 Lautaro Esteban
 
+Linkedin: Lautaro Sebastian Esteban
 GitHub: https://github.com/estebanlautaro
 Mail: Lautyesteban14@gmail.com 
+Instagram: @lauty.esteban
 
 Agustin Brizuela:
 
+Linkedin: Agustin Lionel Brizuela 
+Mail: brizuu750@gmail.com 
 Github: https://github.com/brizuu750
+Instagram: @agustiin.brizuela 
+
 
 Marco Jofiel Godoy Baldovino:
 
+Linkedin: Marco Baldovino 
 Mail: Markbaldj@gmail.com 
 Github: https://github.com/MarkingRNT
+Instagram:@jofiel_godoy 
 
 Lucas David Meabrio:
 
+Linkedin: Lucas Meabrio
 Mail: Meabriolucas@gmail.com
 https://github.com/LucasMeabrio
+Instagram: @lucass_meab
 
 
 Leandro Flores:
 
+Linkedin: Leandro Flores 
 Mail: leandro200flores@gmail.com
-https://github.com/lean1712flores
+Github: https://github.com/lean1712flores
+Instagram: @lean.floresss
 
 Santiago Leiva:
 
+Linkedin: Santiago Leiva
 Mail: Santiagoleiva745@gmail.com 
 Github: https://github.com/SantyLeiva
+Instagram: @leivva.s
 
 Emiliano Romo Cordoba:
 
+Linkedin: Emiliano Romo Cordoba 
 Mail: Romoemiliano324@gmail.com
 Github: https://github.com/RomoCordoba
 
 Santiago Rubio:
 
+Linkedin: Santiago Rubio
 Mail: Santy201205@gmail.com
 https://github.com/SantiagoRubio
+Instagram: @santy_201205
