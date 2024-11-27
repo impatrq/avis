@@ -8,25 +8,41 @@ Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llam
 ## Integrantes:
 
 Lautaro Esteban
+
 GitHub: https://github.com/estebanlautaro
+Mail: Lautyesteban14@gmail.com 
 
 Agustin Brizuela:
+
 Github: https://github.com/brizuu750
 
 Marco Jofiel Godoy Baldovino:
+
+Mail: Markbaldj@gmail.com 
 Github: https://github.com/MarkingRNT
 
 Lucas David Meabrio:
+
+Mail: Meabriolucas@gmail.com
 https://github.com/LucasMeabrio
 
+
 Leandro Flores:
+
+Mail: leandro200flores@gmail.com
 https://github.com/lean1712flores
 
 Santiago Leiva:
+
+Mail: Santiagoleiva745@gmail.com 
 Github: https://github.com/SantyLeiva
 
 Emiliano Romo Cordoba:
+
+Mail: Romoemiliano324@gmail.com
 Github: https://github.com/RomoCordoba
 
 Santiago Rubio:
+
+Mail: Santy201205@gmail.com
 https://github.com/SantiagoRubio
