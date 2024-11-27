@@ -8,17 +8,25 @@ Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llam
 ## Integrantes:
 
 Lautaro Esteban
+GitHub: https://github.com/estebanlautaro
 
-Agustin Brizuela
+Agustin Brizuela:
+Github: https://github.com/brizuu750
 
-Marco Jofiel Godoy Baldovino
+Marco Jofiel Godoy Baldovino:
+Github: https://github.com/MarkingRNT
 
-Lucas David Meabrio
+Lucas David Meabrio:
+https://github.com/LucasMeabrio
 
-Leandro Flores
+Leandro Flores:
+https://github.com/lean1712flores
 
-Santiago Leiva
+Santiago Leiva:
+Github: https://github.com/SantyLeiva
 
-Emili Ano Romo Cordoba
+Emiliano Romo Cordoba:
+Github: https://github.com/RomoCordoba
 
-Santiago Rubio
+Santiago Rubio:
+https://github.com/SantiagoRubio
