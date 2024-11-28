@@ -97,6 +97,6 @@ Linkedin: Santiago Rubio
 
 Mail: Santy201205@gmail.com
 
-https://github.com/SantiagoRubio
+Github: https://github.com/SantiagoRubio
 
 Instagram: @santy_201205
