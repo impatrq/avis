@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Uno</ModuleType>
+  <ModuleName>MobiFlight Brizu</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="Dome LT" Pin="5" />
+  <Button Name="Pitot Heat" Pin="6" />
+  <Button Name="Luces NAV" Pin="7" />
+  <Button Name="Strobes" Pin="8" />
+  <Button Name="Beacon" Pin="9" />
+  <Button Name="Taxi" Pin="10" />
+  <Button Name="Landing" Pin="11" />
+  <Button Name="Alternador" Pin="2" />
+  <Button Name="Bateria" Pin="3" />
+  <Button Name="Primer" Pin="19" />
+  <Button Name="Park Brake" Pin="4" />
+  <Button Name="Carb Heat" Pin="18" />
+  <Button Name="OFF" Pin="14" />
+  <Button Name="RIGHT" Pin="15" />
+  <Button Name="LEFT" Pin="16" />
+  <Button Name="BOTH" Pin="17" />
+</Config>
