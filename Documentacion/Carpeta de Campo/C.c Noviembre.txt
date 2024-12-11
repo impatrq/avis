@@ -53,7 +53,8 @@ Agustin Brizuela soldó cables a los pines de los componentes
 Jofiel Godoy siguió usando la lima para entren todas las switches. 
 
 18/11/24
-Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto
+Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto.
+Brizuela Agustin: Grabo su parte del video para el video presentativo del proyecto
 
 19/11/24
 Jofiel Godoy ajustó las 7 switches que no entraban para que ahora entren y no traben al moverse entre ON y OFF. 
@@ -61,6 +62,8 @@ Santiago Rubio, Lucas Meabrio y Agustín Brizuela testearon que en el FS2020 las
 
 20/11/24
 Jofiel Godoy realizó las últimas soldaduras de los cables a los pines de los componentes, para que así se queden lo más fijo posible. Por eso, con una pistola de silicona pegó la base de los pines a los conectores de la ArduinoUNO para que así al colocar el Panel de Control en la estructura del simulador, estos cables no se muevan ni se salgan. También compró tornillos para ajustar la carcasa que contiene al Arduino al Panel de Control y quede fijo a este. 
+
+
 
 
 
