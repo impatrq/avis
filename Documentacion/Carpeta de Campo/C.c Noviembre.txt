@@ -53,8 +53,7 @@ Agustin Brizuela soldó cables a los pines de los componentes
 Jofiel Godoy siguió usando la lima para entren todas las switches. 
 
 18/11/24
-Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto.
-Brizuela Agustin: Grabo su parte del video para el video presentativo del proyecto
+Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto
 
 19/11/24
 Jofiel Godoy ajustó las 7 switches que no entraban para que ahora entren y no traben al moverse entre ON y OFF. 
@@ -62,6 +61,8 @@ Santiago Rubio, Lucas Meabrio y Agustín Brizuela testearon que en el FS2020 las
 
 20/11/24
 Jofiel Godoy realizó las últimas soldaduras de los cables a los pines de los componentes, para que así se queden lo más fijo posible. Por eso, con una pistola de silicona pegó la base de los pines a los conectores de la ArduinoUNO para que así al colocar el Panel de Control en la estructura del simulador, estos cables no se muevan ni se salgan. También compró tornillos para ajustar la carcasa que contiene al Arduino al Panel de Control y quede fijo a este. 
+Brizuela Agustin hizo el acuerdo en papel que el grupo "SKYLF" se hacia cargo de la computadora y cable de aliemntacion de esta, y en caso de funcionar se modificaria, luego con el alumno santiago leiva fue a buscar la computadora para poder usarla para el simulador.
+Brizuela agustin hizo una inspeccion de componentes de la computadora para poder ver si tenia la suficiente potenci para correr los progrmas necesarios para el simulador, dado a que la computadora no cumplia correctamente con estos requisitos, se opto por modificarla, es decir, camnbiar componentes por otros mejores para mejorar su potencia y sea la adecuada para correr los programas.
 
 
 
