@@ -64,6 +64,12 @@ Jofiel Godoy realizó las últimas soldaduras de los cables a los pines de los c
 Brizuela Agustin hizo el acuerdo en papel que el grupo "SKYLF" se hacia cargo de la computadora y cable de aliemntacion de esta, y en caso de funcionar se modificaria, luego con el alumno santiago leiva fue a buscar la computadora para poder usarla para el simulador.
 Brizuela agustin hizo una inspeccion de componentes de la computadora para poder ver si tenia la suficiente potenci para correr los progrmas necesarios para el simulador, dado a que la computadora no cumplia correctamente con estos requisitos, se opto por modificarla, es decir, camnbiar componentes por otros mejores para mejorar su potencia y sea la adecuada para correr los programas.
 
+21/11/24
+Brizuela Agustin inicio con la configuracion de la computadora requerida para el simulador, a la computadora primero se le intento con usar otro disco de almacenamiento que ejecute el window sin usar el disco principal, pero esto no se logro ya que la computadora estaba bloqueada desde la BIOS, se le tuvo que hacer un reseteo de BIOS desde la placa madre fisica. Luego se le instalo correctamente el window y los programas necesarios para el funcionamiento correcto del simulador, entre ellos estaba FlIGHT SIMULATOR 2020, FSUIPC, MOBIFLIGHT, ARDUINO IDE, ENTRE OTROS. Tambien Brizuela agustin, Lautaro Esteban armaron el stand para la exposicion.
+
+
+
+
 
 
 
