@@ -67,6 +67,11 @@ Brizuela agustin hizo una inspeccion de componentes de la computadora para poder
 21/11/24
 Brizuela Agustin inicio con la configuracion de la computadora requerida para el simulador, a la computadora primero se le intento con usar otro disco de almacenamiento que ejecute el window sin usar el disco principal, pero esto no se logro ya que la computadora estaba bloqueada desde la BIOS, se le tuvo que hacer un reseteo de BIOS desde la placa madre fisica. Luego se le instalo correctamente el window y los programas necesarios para el funcionamiento correcto del simulador, entre ellos estaba FlIGHT SIMULATOR 2020, FSUIPC, MOBIFLIGHT, ARDUINO IDE, ENTRE OTROS. Tambien Brizuela agustin, Lautaro Esteban armaron el stand para la exposicion.
 
+22/11/24
+Brizuela Agustin y Santiago rubio realizaron la configuracion del Mobiflight, en este se configuro la configuracion final del panel de simulador "SKYLF", el FSUIPC7 que se le configuro para que sea detectado por el FLIGHT SIMULATOR 2020, tambien el Arduino IDE en el estaria el codigo final de los variadores de frecuencia que hicieron Esteban lautaro, Leiva Santiago y Leandro flores.
+   Luego a la tarde fue la exposicion, los alumnos Agustin brizuela, Lautaro Esteban, Flores Leandro, Leiva Santiago y RomoCordoba Emiliano fueron a buscar las 2 teles necesarias, una para el simulador y la otra para mostrar el powerpoint del preoyecto y tambien compraron cinta doble faz. Mas tarde los alumnos Brizuela Agustin y Leiva Santiago fueron a comprar un cable de displayport a hdmi.
+Este dia todo el grupo estuvo resolviendo inconveninetes no deseados y realizando la exposicion a jurados y a gente que preguntaba sobre el proyecto. luego de un inconveniente no deseado que dio como resultado la ruptura de una de las pantallas de las teles, los alumnos Brizuela Agustin, Lautaro Esteban y Marco Godoy fueron a buscar una tele de ultimo recurso para poder arreglar el inconveniente.
+
 
 
 
