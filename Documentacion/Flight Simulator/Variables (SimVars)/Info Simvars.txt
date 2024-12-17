@@ -1,4 +1,0 @@
-Para consultar mas variables en caso de necesitarlo:
-
-https://docs.flightsimulator.com/html/Programming_Tools/SimVars/Simulation_Variables.htm 
-

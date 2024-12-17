@@ -1,0 +1,80 @@
+C.c Noviembre 
+1/11/24 
+  Santiago Rubio, Agustin Brizuela, Jofiel Godoy y Lucas Meabrio probaron el codigo de la llave selectora en el mobiflight para el magneto/iman de la aeronave. 
+5/11/24
+  Jofiel Godoy, Santiago Rubio, Agustin Brizuela y Lucas Meabrio testearon dos arduinos a la vez en el mobiflight para comprobar la compatibilidad de las mismas simultaneamente con el
+  programa.
+  Santiago Rubio agrego los codigos necesarios para las comunicaciones entre el MPU y el MFS para el movimiento de la cabina y que funcione correctamente. 
+  Lautaro Esteban, Santiago Leiva y Leandro Flores realizaron un escaneo general de direccion de registros desde modscan y tambien realizaron otro escaneo de registros de envio.
+    desde 40.000 hasta 50.000. Investigaron un nuuevo metodo de funcionamiento con un potenciometro digital. Se planeo e investigo las librerias y elementos necesarios para el codigo
+    con el nuevo metodo de comunicacion.
+  Agustin Brizuela realizo la impresion 3d de dos carcasas para las arduinos uno.
+6/11/24
+  Jofiel Godoy y Agustin Brizuela continuaron con el modelado 3d del panel de control. Soldaron 8 pines del potenciometro digital y la llave selectora para su correcto funcionmiento.
+  Santiago Rubio continuo con el codigo para la comparacion mencionado en el dia 5/11. Tambien probo la llave selectora junto a Lucas Meabrio.
+  Lucas Meabrio inicio la carpeta de campo de novimebre.
+  Emiliano Romo Cordoba continuo con las reformas para la cabina del simulador, tomando las medidas para poner un soporte para el yoke, 
+  Lautaro Esteban, Santiago Leiva y Leandro Flores Compraron los potenciometros digitales para poder trabajar con la comunicacion de los variadores, realizaron pruebas basicas con un potenciometro analogico para identificar la respuesta con el variador y verificar que las conexiones esten bien establecidas, luego realizaron las pruebas implementando el potenciometro digital y realizaron el codigo para ajustar el porcentaje de la resistencia del potenciometro digital a un rango de posicion de 0 a 100%. Y empezaron a implementar a las conexiones y al codigo el ESP32.
+7/11/24
+Jofiel Godoy continuó con el modelado 3D en TinkerCad para luego imprimirlo en una hoja A4 para así corroborar que las medidas reales son correctas. Esto lo hizo para que a la hora de imprimir el panel en 3D no hayan errores
+Agustin Brizuela ubico el yoke pedestal en el simulador, modifico el pedestal para que sea mas compatible con el simulador, saco medidas del simulador para que se pueda modificar la estructura.
+Santiago Rubio y Lucas Meabrio soldaron la llave selectora, midieron el yoke, investigaron las variables para el panel de control e hicieron la programación de los movimientos del avión donde lograron transformar los datos en grados.
+Lautaro Esteban, Santiago Leiva, Leandro Flores agregaron las conexiones al MPU6050 y lo implementaron en el codigo, y debido a la sensibilidad inestable del potenciometro digital agregaron una libreria simple kanban system
+Emiliano Romocordoba Midio la base de la estructura, reforzo la soldadura del panel, coloco la base del monitor, agujereo la Base, Construyo Estructuras para sostener el yoke.
+
+8/11/24
+Jofiel Godoy y Agustín Brizuela luego de imprimir las medidas de modelo 3D en una hoja A4, compararon que las medidas estuvieran cercanas a lo real, así determinando hacer pruebas comparando el tamaño haciedo una impresión 3D de una pieza pequeña con los agujeros en donde va cada switch o pulsador. Para eos Jofiel Godoy creó un modelado 3D chico del que luego Agustín Brizuela pediría a un conocido suyo que le imprimiera para luego probarlo.
+
+9/!1/24
+Agustín Brizuela y Jofiel Godoy probaron las medidas reales en el mini modelado 3D, pudiendo determinar que todas las medidas encajaban excepto la de los pulsadores.
+También junto a Lucas Meabrio y Santiago Rubio testeamos el funcionamiento de todo el circuito del Panel de Control conectado a la ArduinoUNO y el MobiFlight y FS2020. Pudimos observar que andaban todas debidamente excepto un acción del Magneto, el "START" el cuál al mover la perilla de la llave selectora rotativa nunca se movía en el FS2020. Para solucionar este error Santiago Rubio se comprometió a investigar para que al girar el Magneto en "START" se ponga simultáneamente en el juego. 
+
+10/11/24 
+Santiago Rubio investigó y testeó dos métodos para que funcione el "START" del magneto. Para esto usó un método con events Ids en mobiflight en vez de los códigos offset. Y otro método en donde ubiquemos el "start" como un pulsador aparte. En este último Santiago Rubio creó un código para que este botón hiciera que detecte la acción del pulsador hacia el FS2020.
+
+11/11/24
+Jofiel Godoy corrigió las medidas reales en Tinkercad para realizar la impresión 3D para mañana.
+
+12/11/24
+Emiliano Romo Cordoba, Leandro Flores, Jofiel Godoy, Agustín Brizuela y Lautaro Esteban realizaron una limpieza general de los interiores y exteriores de la estructura del simulador.
+Agustín Brizuela realizó la impresión del Panel de Control, y junto a Jofiel Godoy probaron a colocar todos los componentes pero se encontraron con la dificultad de que las 7 switches de navegación no entraban en los agujeros, de forma que para que puedan entrar bien Jofiel se propuso a arreglar las medidas de esas switches e el modelado de TinkerCad.
+
+13/11/24 
+Jofiel Godoy renovó el diseño del panel con medidas lo que creía más cercano a real, agregando varios detalles estéticos como las líneas separadoras de cada switch de navegación, y no menos importante, el logo de nuestro proyecto en el medio del panel. También agregó 4 agujeros para que vaya colocado detrás del panel la Arduino con su carcasa para que se conecten los cables de cada componente. 
+
+14/11/24
+Agustín Brizuela se contactó con un trabajador de nuestro sponsor del proyecto "Ferretería la 50", se nos ofreció a hacer de vuelta la impresión mejorada, ya con las letras en blanco y el logo de SkylF.
+
+15/11/24
+Jofiel Godoy y Agustín Brizuela probaron  el nuevo panel de control con todos los componentes. Entraron todos excepto las 7 switches las cuales no hacían un movimiento adecuado entre ON y OFF, sino que se trababan. Por eso nos propusimos de limar para agrandar el agujero para que así entren.
+
+16/11/24
+Agustin Brizuela soldó cables a los pines de los componentes
+Jofiel Godoy siguió usando la lima para entren todas las switches. 
+
+18/11/24
+Jofiel Godoy grabó su parte del video para el video presentantivo del proyecto
+
+19/11/24
+Jofiel Godoy ajustó las 7 switches que no entraban para que ahora entren y no traben al moverse entre ON y OFF. 
+Santiago Rubio, Lucas Meabrio y Agustín Brizuela testearon que en el FS2020 las soldaduras de las conexiones hechas al panel anduvieran, así el resultado siendo positivo
+
+20/11/24
+Jofiel Godoy realizó las últimas soldaduras de los cables a los pines de los componentes, para que así se queden lo más fijo posible. Por eso, con una pistola de silicona pegó la base de los pines a los conectores de la ArduinoUNO para que así al colocar el Panel de Control en la estructura del simulador, estos cables no se muevan ni se salgan. También compró tornillos para ajustar la carcasa que contiene al Arduino al Panel de Control y quede fijo a este. 
+Brizuela Agustin hizo el acuerdo en papel que el grupo "SKYLF" se hacia cargo de la computadora y cable de aliemntacion de esta, y en caso de funcionar se modificaria, luego con el alumno santiago leiva fue a buscar la computadora para poder usarla para el simulador.
+Brizuela agustin hizo una inspeccion de componentes de la computadora para poder ver si tenia la suficiente potenci para correr los progrmas necesarios para el simulador, dado a que la computadora no cumplia correctamente con estos requisitos, se opto por modificarla, es decir, camnbiar componentes por otros mejores para mejorar su potencia y sea la adecuada para correr los programas.
+
+21/11/24
+Brizuela Agustin inicio con la configuracion de la computadora requerida para el simulador, a la computadora primero se le intento con usar otro disco de almacenamiento que ejecute el window sin usar el disco principal, pero esto no se logro ya que la computadora estaba bloqueada desde la BIOS, se le tuvo que hacer un reseteo de BIOS desde la placa madre fisica. Luego se le instalo correctamente el window y los programas necesarios para el funcionamiento correcto del simulador, entre ellos estaba FlIGHT SIMULATOR 2020, FSUIPC, MOBIFLIGHT, ARDUINO IDE, ENTRE OTROS. Tambien Brizuela agustin, Lautaro Esteban armaron el stand para la exposicion.
+
+
+
+
+
+
+
+
+
+
+
+
