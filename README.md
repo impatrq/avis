@@ -1,90 +1,110 @@
-# :: S K Y ⅃ ꟻ ::
+<div align="center">
 
+# [S  K  Y  ⅃  ꟻ](https://estebanlautaro.github.io/Paginaweb-SKYFLY/)
 
+![Captura de pantalla 2024-11-19 194901](https://github.com/user-attachments/assets/29591490-1467-4a72-96a3-b08a8740aded)
 
-![image](https://github.com/user-attachments/assets/a711fab6-926c-4d62-a9e5-471cc4629ebf)
+&nbsp;
+
+| Página web | Email | Instagram | TikTok |
+|------------|-------|-----------|-----------|
+|[Paginaweb-SKYFLY](https://estebanlautaro.github.io/Paginaweb-SKYFLY/)|skyflyproyect@gmail.com|[skylf.proyect](https://www.instagram.com/skylf.proyect/)|[skyfly826](https://www.tiktok.com/@skyfly826)|
+
+&nbsp;
+
+</div>
 
 ## ¿De que se trata nuestro proyecto?
 
-Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llamado "  AVIS" en 2019, destinado a practicar maniobras y replicar las condiciones de vuelo reales dentro de una cabina que simula los movimientos del avion. El propósito principal será facilitar la realización de prácticas didácticas, proporcionando a los usuarios un entorno seguro y controlado para mejorar sus habilidades de vuelo y familiarizarse con diferentes escenarios y situaciones aeronáuticas. Este tipo de simuladores se utilizan tanto con fines de entrenamiento de pilotos como para el entretenimiento de entusiastas de la aviación. Para mas informacion, entrar a las carpetas que estan en el repositorio.
-
+Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llamado "AVIS" en 2019, destinado a practicar maniobras y replicar las condiciones de vuelo reales dentro de una cabina que simula los movimientos del avion. El propósito principal será facilitar la realización de prácticas didácticas, proporcionando a los usuarios un entorno seguro y controlado para mejorar sus habilidades de vuelo y familiarizarse con diferentes escenarios y situaciones aeronáuticas. Este tipo de simuladores se utilizan tanto con fines de entrenamiento de pilotos como para el entretenimiento de entusiastas de la aviación. Para mas informacion, entrar a las carpetas que estan en el repositorio.
 
 ## Tecnologías utilizadas 
----
 
-## Entorno Virtual
+### Entorno Virtual
 - Flight Simulator 2020
+- SimVar Watcher
   
 ### Software de programación
 - ArduinoUNO
+- Thonny
 
-##### Drivers de ArduinoUNO
-- ESP32
+#### Drivers de ArduinoUNO
+- ESP32_DEVKIT
 - MPU6050_light
+
+### Componentes
+- ESP32 (30 pines)
+- MPU6050
+- Potenciometro digital X9C103S
+- Dos optoacopladores 4N25
+- Dos resistencias de 330 ohms
+- Dos resistencias de 10 Kohms
 
 ### Software del Panel de Control:
 - Mobiflight
 - FSUIPC
-### 
 
 ## Integrantes:
----
 
-**Lautaro Esteban**
+Somos un grupo de alumnos de 7°2da AV de la E.E.S.T. N°7 "Taller Regional Quilmes" (IMPA).
 
---> ▶️ Linkedin: [Lautaro Sebastian Esteban](https://www.linkedin.com/in/lautaro-sebastián-esteban-a5a8462a2/)
---> 📧 Mail: Lautyesteban14@gmail.com 
---> 💻 GitHub: https://github.com/estebanlautaro
---> 🔔 Instagram: @lauty.esteban
+<div align="center">
 
+![image](https://github.com/user-attachments/assets/a711fab6-926c-4d62-a9e5-471cc4629ebf)
 
-**Agustin Brizuela:**
+</div>
 
---> ▶️ Linkedin: [Agustin Lionel Brizuela](https://www.linkedin.com/in/agustin-lionel-brizuela-488690270/?trk=opento_nprofile_details) 
---> 📧 Mail: brizuu750@gmail.com 
---> 💻 Github: https://github.com/brizuu750
---> 🔔 Instagram: @agustiin.brizuela 
+### Lautaro Esteban
 
+    📷 Instagram: @lauty.esteban
+    📧 Email: lautyesteban14@gmail.com
+    🗞️ LinkedIn: Lautaro Sebastian Esteban
+    🌐 Github: https://github.com/estebanlautaro
 
-**Marco Jofiel Godoy Baldovino:**
+### Agustin Brizuela:
 
---> ▶️ Linkedin: [Marco Baldovino](www.linkedin.com/in/marco-baldovino-b3948b2ba) 
---> 📧 Mail: markbaldj@gmail.com 
---> 💻 Github: https://github.com/MarkingRNT
---> 🔔 Instagram: @jofiel_godoy 
+    📷 Instagram: @agustiin.brizuela 
+    📧 Email: brizuu750@gmail.com 
+    🗞️ LinkedIn: Agustin Lionel Brizuela 
+    🌐 Github: https://github.com/brizuu750
 
+### Marco Jofiel Godoy Baldovino:
 
-**Lucas David Meabrio:**
+    📷 Instagram: @jofiel_godoy  
+    📧 Email: markbaldj@gmail.com 
+    🗞️ LinkedIn: Marco Baldovino
+    🌐 Github: https://github.com/MarkingRNT
 
---> ▶️ Linkedin: [Lucas Meabrio](https://www.linkedin.com/in/lucas-meabrio-539666270/)
---> 📧 Mail: Meabriolucas@gmail.com
---> 💻 Github: https://github.com/LucasMeabrio
---> 🔔 Instagram: @lucass_meab
+### Santiago Rubio:
 
+    📷 Instagram: @santy_201205
+    📧 Email: santy201205@gmail.com
+    🗞️ LinkedIn: Santiago Rubio
+    🌐 Github: https://github.com/SantiagoRubio
 
-**Leandro Flores:**
+### Lucas David Meabrio:
 
---> ▶️ Linkedin: [Leandro Flores](https://www.linkedin.com/in/leandro-flores-9931a6310/?originalSubdomain=ar)
---> 📧 Mail: leandro200flores@gmail.com
---> 💻 Github: https://github.com/lean1712flores
---> 🔔 Instagram: @lean.floresss
+    📷 Instagram: @lucass_meab
+    📧 Email: meabriolucas@gmail.com
+    🗞️ LinkedIn: Lucas Meabrio
+    🌐 Github: https://github.com/LucasMeabrio
 
-**Santiago Leiva:**
+### Leandro Flores:
 
---> ▶️ Linkedin: [Santiago Leiva](https://www.linkedin.com/in/santiago-leiva-3905942bb/)
---> 📧 Mail: Santiagoleiva745@gmail.com 
---> 💻 Github: https://github.com/SantyLeiva
---> 🔔 Instagram: @leivva.s
+    📷 Instagram: @lean.floresss
+    📧 Email: leandro200flores@gmail.com
+    🗞️ LinkedIn: Leandro Flores
+    🌐 Github: https://github.com/lean1712flores
 
-**Emiliano Romo Cordoba:**
+### Santiago Leiva:
 
---> ▶️ Linkedin: [Emiliano Romo Cordoba](https://www.linkedin.com/in/emiliano-romo-cordoba-2b69042bb/?originalSubdomain=ar) 
---> 📧 Mail: Romoemiliano324@gmail.com
---> 💻 Github: https://github.com/RomoCordoba
+    📷 Instagram: @leivva.s
+    📧 Email: santiagoleiva745@gmail.com 
+    🗞️ LinkedIn: Santiago Leiva
+    🌐 Github: https://github.com/SantyLeiva
 
-**Santiago Rubio:**
+### Emiliano Romo Cordoba:
 
---> ▶️ Linkedin: [Santiago Rubio](https://www.linkedin.com/in/santiago-rubio-a118932a8/?originalSubdomain=ar)
---> 📧 Mail: Santy201205@gmail.com
---> 💻 Github: https://github.com/SantiagoRubio
---> 🔔 Instagram: @santy_201205
+    📧 Email: romoemiliano324@gmail.com
+    🗞️ LinkedIn: Emiliano Romo Cordoba 
+    🌐 Github: https://github.com/RomoCordoba
