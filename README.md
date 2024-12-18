@@ -32,13 +32,22 @@ Nuestro proyecto es continuar con el simulador de vuelo que empezo el grupo llam
 - ESP32_DEVKIT
 - MPU6050_light
 
-### Componentes
-- ESP32 (30 pines)
-- MPU6050
-- Potenciometro digital X9C103S
-- Dos optoacopladores 4N25
-- Dos resistencias de 330 ohms
-- Dos resistencias de 10 Kohms
+### Componentes 
+- #### Placa PCB con:
+  - ESP32 (30 pines)
+  - MPU6050
+  - Potenciometro digital X9C103S
+  - Dos optoacopladores 4N25
+  - Dos resistencias de 330 ohms
+  - Dos resistencias de 10 Kohms
+    
+- #### Panel de Control:
+  - Impresión 3D del Panel de Control
+  - ArduinoUNO R3
+  - Cable de Datos para el Arduino
+  - 9 switches On/Off
+  - 3 Pulsadores
+  - Llave selectora de 6 estados
 
 ### Software del Panel de Control:
 - Mobiflight
